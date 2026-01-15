@@ -8,7 +8,7 @@ print (num1 * num2) # Multiplication
 print (num1/num2) # Dividation
 print (num1 % num2) # Modulas
 print (num1**num2) # Exponenet(power)
-print (num1 // num2) # Floor divison
+print (num1 // num2) # Floor divison(Nearest value)
 
 Output:
 37
@@ -18,3 +18,4 @@ Output:
 1
 64000
 13
+
