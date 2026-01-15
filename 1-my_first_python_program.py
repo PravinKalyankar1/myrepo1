@@ -1,3 +1,2 @@
 print("Hello ")
-
-print("Hello, I am Aws Devops Engineer")
+print("Hello, I am Data Analyst")
