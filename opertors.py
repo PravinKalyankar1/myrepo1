@@ -19,3 +19,66 @@ Output:
 64000
 13
 
+# Assignment operators
+x=5   # assignemet operator
+print (x)
+x+=10 # add 10
+print (x)
+x-=10 # subtract 10 from all 
+print(x)
+x=10 # Here again assign x=10
+x*=10 # multiplication with 10
+print(x)
+x=x/2
+print(x)
+
+output: 
+5
+15
+5
+100
+50
+
+# Comparators operators
+p1=20
+p2=40
+print(p1 < p2) # Less than true condition
+print (p2 > p1) # Greater than true condition
+print(p1>p2) # False condition
+p3=20
+p4=20
+print(p3==p4) # Equal to true condition
+print (p3!=p4) # Not equal to False
+p5=60
+p6=70
+print(p5!=p6) # Not equal to true condition
+print(p5==p6) # equal to false 
+
+Output:
+True
+True
+False
+True
+False
+True
+False
+
+# Logical operators
+x1=5
+x2=15
+x3=30
+x4=40
+print("And condition:", x1< x2 and x3 < x4) # And Condition if all true then true
+print("Or condition:", x1>x2 or x3<x4) # Or condition if anyone true then true
+print (x1>x2 and x3<x4)# if anyone is false all false
+print(x1>x2 or x3>x4)# if all false false 
+print (not 5>3) # not condition resverse the output
+print(not 5>30) # revesre the output
+
+Output:
+And condition: True
+Or condition: True
+False
+False
+False
+True
