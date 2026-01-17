@@ -82,3 +82,31 @@ False
 False
 False
 True
+
+# Identity Operators
+x1=100
+x2=100
+print (x1 is x2) # true conditiom
+print (x1 is not x2)# false condition
+x3= 100
+x4= 105
+print (x3 is x4) # false condition
+print (x3 is not x4) # true condition
+
+Output: 
+True
+False
+False
+True
+
+# Membership operator
+print ("check 'e' in mango:", 'e' in 'mango')
+print ("check 'a'in mango", 'a'in 'mango')
+print ("check 'a' not in apple:", 'a' not in 'apple')
+print ("check 'o' not in apple:", 'o'not in 'apple')
+
+Output: 
+check 'e' in mango: False
+check 'a'in mango True
+check 'a' not in apple: False
+check 'o' not in apple: True
